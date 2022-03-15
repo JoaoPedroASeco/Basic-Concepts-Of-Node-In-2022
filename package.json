@@ -1,0 +1,17 @@
+{
+  "name": "project_node_2022",
+  "version": "1.0.0",
+  "description": "Primeiro Projeto de 2022 em Node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "João Pedro Augusto Seco",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
