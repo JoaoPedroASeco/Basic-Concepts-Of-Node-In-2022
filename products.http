@@ -1,0 +1,29 @@
+POST http://localhost:4001/products
+content-type: application/json
+
+{
+    "name": "produto 4",
+    "price": 1.50
+}
+
+###
+
+GET http://localhost:4001/products
+
+### 
+
+GET http://localhost:4001/products/d9933caa-52bc-4927-a938-180a5d66464b
+
+###
+
+PUT http://localhost:4001/products/1c8cf1a5-4ded-46a6-8b59-60ef487f98fa
+content-type: application/json
+
+{
+    "name": "produto 4",
+    "price": 1.50
+}
+
+###
+
+DELETE http://localhost:4001/products/1c8cf1a5-4ded-46a6-8b59-60ef487f98fa
